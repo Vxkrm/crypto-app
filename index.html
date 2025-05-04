@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Price Tracker</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Crypto Price Tracker by Vikram</h1>
+    <button id="theme-toggle">Dark Mode</button>
+  </header>
+
+  <main>
+    <input type="text" id="search" placeholder="Search cryptocurrency..." />
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Symbol</th>
+          <th>Price (USD)</th>
+          <th>Market Cap</th>
+        </tr>
+      </thead>
+      <tbody id="crypto-table">
+        <!-- Dynamic Content -->
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p>Powered by <a href="https://coingecko.com" target="_blank">CoinGecko API</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
